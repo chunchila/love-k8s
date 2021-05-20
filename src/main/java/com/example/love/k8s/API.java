@@ -22,5 +22,12 @@ public class API {
 
         return "1\n";
     }
+    @GetMapping("/2")
+    public String getGlobalTwo() throws InterruptedException {
+
+
+        return "2\n";
+    }
+
 
 }
