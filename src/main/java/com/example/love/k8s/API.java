@@ -30,7 +30,7 @@ public class API {
     }
 
     @GetMapping("/3")
-    public String getGlobalTwo() throws InterruptedException {
+    public String getGlobalThree() throws InterruptedException {
 
 
         return "3\n";
